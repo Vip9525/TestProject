@@ -28,6 +28,7 @@ public class AccountDao {
     public void insert(Account account)
     {
     	Session session=null;
+        //session start
     	try {
     		session= SessionUtil.getSession();
     		session.getTransaction().begin();
